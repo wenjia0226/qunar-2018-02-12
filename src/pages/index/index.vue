@@ -1,13 +1,14 @@
 <template>
-  <div class='header'> index </div>
+<index-header></index-header>
 </template>
 <script>
+import IndexHeader from './header'
 export default {
-  name: 'Index'
+  name: 'Index',
+  components: {
+    IndexHeader
+  }
 }
 </script>
-<style scoped>
-.header {
-  background: red;
-}
+<style lang="stylus" scoped>
 </style>
